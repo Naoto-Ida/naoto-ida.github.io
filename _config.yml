@@ -30,7 +30,13 @@ github_username: Naoto-Ida
 # Build settings
 theme: minima
 plugins:
+  - jekyll-analytics
   - jekyll-feed
+jekyll_analytics:
+  GoogleAnalytics: # Add, if you want to track with Google Analytics
+    id: UA-73101284-7 # Required - replace with your tracking id
+    anonymizeIp: false # Optional - Default: false - set to true for anonymized tracking
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
